@@ -12,7 +12,7 @@ let router = require("./routes")
 app.use(bodyParser.json())
 app.use(cors())
 
-const port = 80
+const PORT = process.env.PORT || 8080;
 app.use(express.static('public'))
 app.use('/api', router);
 
