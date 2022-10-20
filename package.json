@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node main.js",
     "debug": "nodemon --inspect main.js --unhandled-rejections=strict"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "keywords": [],
   "author": "",
